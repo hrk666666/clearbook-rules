@@ -1,0 +1,14 @@
+{
+  "id": "novel-ads",
+  "name": "小说广告清理",
+  "author": "Clear Book",
+  "desc": "清理常见小说网站广告、水印、推广",
+  "version": "1.0.0",
+  "stars": 42,
+  "rules": [
+    {"pattern": "最新章节推荐|关注公众号|下载APP|加入书架|收藏本站|手机阅读", "flags": "gi"},
+    {"pattern": "本小说来自.{2,15}(?:提供|发布|首发)", "flags": "gi"},
+    {"pattern": "(?:免费|限时)(?:阅读|领取)", "flags": "gi"},
+    {"pattern": "扫码(?:关注|领取)", "flags": "gi"}
+  ]
+}
