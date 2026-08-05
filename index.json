@@ -1,0 +1,6 @@
+[
+  {"id":"novel-ads","name":"小说广告清理","author":"Clear Book","desc":"清理常见小说网站广告、水印、推广","version":"1.0.0","stars":42},
+  {"id":"chinese-novel","name":"中文小说增强","author":"community","desc":"中文小说特殊格式清理，章节规范化","version":"1.0.0","stars":28},
+  {"id":"txt-compact","name":"TXT 极致压缩","author":"community","desc":"去除所有多余空白、合并短段落","version":"1.0.0","stars":15},
+  {"id":"homophone-ads","name":"广告同音字混淆","author":"Clear Book","desc":"常见广告同音字/形近字混淆词典","version":"1.0.0","stars":35}
+]
