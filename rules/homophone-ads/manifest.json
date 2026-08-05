@@ -2,9 +2,11 @@
   "id": "homophone-ads",
   "name": "广告同音字混淆",
   "author": "Clear Book",
-  "desc": "常见广告同音字/形近字混淆词典",
+  "description": "常见广告同音字/形近字混淆词典",
   "version": "1.0.0",
-  "stars": 35,
+  "category": "homophone",
+  "tags": ["同音字", "混淆", "广告"],
+  "license": "AGPL-3.0",
   "rules": [],
   "homophones": [
     {"dirty": "威信", "clean": "微信"},

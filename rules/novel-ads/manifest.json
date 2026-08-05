@@ -1,0 +1,17 @@
+{
+  "id": "novel-ads",
+  "name": "小说广告清理",
+  "author": "Clear Book",
+  "description": "清理常见小说网站广告、水印、推广",
+  "version": "1.0.0",
+  "category": "ads",
+  "tags": ["小说", "广告", "水印", "推广"],
+  "license": "AGPL-3.0",
+  "rules": [
+    {"name": "网址域名", "pattern": "(?:https?:\\/\\/|www\\.|m\\.)[^\\s\\u4e00-\\u9fff]{2,}", "flags": "gi", "description": "清理网址和域名"},
+    {"name": "推广话术", "pattern": "最新章节推荐|关注公众号|下载APP|加入书架|收藏本站|手机阅读", "flags": "gi", "description": "清理推广话术"},
+    {"name": "站点水印", "pattern": "本小说来自.{2,15}(?:提供|发布|首发)", "flags": "gi", "description": "清理站点水印"},
+    {"name": "翻页提示", "pattern": "本章未完[，,]?请(?:点击|前往).*(?:下一页|继续)", "flags": "gi", "description": "清理翻页提示"},
+    {"name": "引导语", "pattern": "请(?:到|前往|访问).*(?:阅读|获取)(?:完整|全部).*(?:版|内容)", "flags": "gi", "description": "清理引导语"}
+  ]
+}

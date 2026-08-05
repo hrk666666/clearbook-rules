@@ -1,0 +1,69 @@
+{
+  "name": "Clear Book Rules",
+  "description": "Clear Book 规则市场社区规则仓库",
+  "version": "1.0.0",
+  "homepage": "https://hrk666666.github.io/clearbook/",
+  "repository": "https://github.com/hrk666666/clearbook-rules",
+  "license": "AGPL-3.0",
+  "categories": [
+    {"id": "ads", "name": "广告清理", "icon": "campaign"},
+    {"id": "content", "name": "内容清洗", "icon": "auto_fix_high"},
+    {"id": "format", "name": "格式规范", "icon": "text_format"},
+    {"id": "homophone", "name": "混淆检测", "icon": "psychology"},
+    {"id": "compress", "name": "压缩优化", "icon": "compress"}
+  ],
+  "rules": [
+    {
+      "id": "novel-ads",
+      "name": "小说广告清理",
+      "author": "Clear Book",
+      "description": "清理常见小说网站广告、水印、推广",
+      "version": "1.0.0",
+      "category": "ads",
+      "tags": ["小说", "广告", "水印", "推广"],
+      "stars": 42,
+      "downloads": 156,
+      "repository": "https://github.com/hrk666666/clearbook-rules",
+      "path": "rules/novel-ads"
+    },
+    {
+      "id": "chinese-novel",
+      "name": "中文小说增强",
+      "author": "community",
+      "description": "中文小说特殊格式清理，章节规范化",
+      "version": "1.0.0",
+      "category": "format",
+      "tags": ["小说", "格式", "章节"],
+      "stars": 28,
+      "downloads": 89,
+      "repository": "https://github.com/hrk666666/clearbook-rules",
+      "path": "rules/chinese-novel"
+    },
+    {
+      "id": "txt-compact",
+      "name": "TXT 极致压缩",
+      "author": "community",
+      "description": "去除所有多余空白、合并短段落",
+      "version": "1.0.0",
+      "category": "compress",
+      "tags": ["压缩", "空白", "段落"],
+      "stars": 15,
+      "downloads": 67,
+      "repository": "https://github.com/hrk666666/clearbook-rules",
+      "path": "rules/txt-compact"
+    },
+    {
+      "id": "homophone-ads",
+      "name": "广告同音字混淆",
+      "author": "Clear Book",
+      "description": "常见广告同音字/形近字混淆词典",
+      "version": "1.0.0",
+      "category": "homophone",
+      "tags": ["同音字", "混淆", "广告"],
+      "stars": 35,
+      "downloads": 120,
+      "repository": "https://github.com/hrk666666/clearbook-rules",
+      "path": "rules/homophone-ads"
+    }
+  ]
+}
