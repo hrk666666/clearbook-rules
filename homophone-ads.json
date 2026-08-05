@@ -1,0 +1,24 @@
+{
+  "id": "homophone-ads",
+  "name": "广告同音字混淆",
+  "author": "Clear Book",
+  "desc": "常见广告同音字/形近字混淆词典",
+  "version": "1.0.0",
+  "stars": 35,
+  "rules": [],
+  "homophones": [
+    {"dirty": "威信", "clean": "微信"},
+    {"dirty": "薇信", "clean": "微信"},
+    {"dirty": "V信", "clean": "微信"},
+    {"dirty": "扣扣", "clean": "QQ"},
+    {"dirty": "秋秋", "clean": "QQ"},
+    {"dirty": "赚前", "clean": "赚钱"},
+    {"dirty": "砖钱", "clean": "赚钱"},
+    {"dirty": "某宝", "clean": "淘宝"},
+    {"dirty": "某东", "clean": "京东"},
+    {"dirty": "某音", "clean": "抖音"},
+    {"dirty": "某手", "clean": "快手"},
+    {"dirty": "公重号", "clean": "公众号"},
+    {"dirty": "公粽号", "clean": "公众号"}
+  ]
+}
