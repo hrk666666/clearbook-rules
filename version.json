@@ -1,1 +1,5 @@
-{"version":"1.0.0","url":"https://hrk666666.github.io/clearbook/","changelog":"Clear Book v1.0.0 开源发布"}
+{
+  "version": "2.0",
+  "url": "https://hrk666666.github.io/clearbook/",
+  "changelog": "Clear Book v2.0：MD3 界面升级、上传/下载/权限修复"
+}
